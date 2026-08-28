@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023 The PixelOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,8 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff
+$(call inherit-product, vendor/pixel/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -35,7 +35,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_HAVE_SEC_NFC := true
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a52sxq
+PRODUCT_NAME := custom_a52sxq
 PRODUCT_DEVICE := a52sxq
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A528B
