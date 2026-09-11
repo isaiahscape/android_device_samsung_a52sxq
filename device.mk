@@ -46,3 +46,5 @@ PRODUCT_SOONG_NAMESPACES += \
 # UDFPS
 $(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
+
+-include vendor/lineage-priv/keys/keys.mk
