@@ -54,9 +54,10 @@
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
         <minimumLux>3000</minimumLux>
         <timing>
-            <timeWindowSecs>1800</timeWindowSecs>
-            <timeMaxSecs>300</timeMaxSecs>
-            <timeMinSecs>60</timeMinSecs>
+            <!-- Time limitation for HBM-->
+            <timeWindowSecs>0</timeWindowSecs>
+            <timeMaxSecs>0</timeMaxSecs>
+            <timeMinSecs>0</timeMinSecs>
         </timing>
         <!-- Thermal limitation for HBM -->
         <thermalStatusLimit>critical</thermalStatusLimit>
