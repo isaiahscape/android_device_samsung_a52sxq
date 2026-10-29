@@ -58,6 +58,8 @@
             <timeMaxSecs>300</timeMaxSecs>
             <timeMinSecs>60</timeMinSecs>
         </timing>
+        <!-- Thermal limitation for HBM -->
+        <thermalStatusLimit>critical</thermalStatusLimit>
         <sdrHdrRatioMap>
             <point>
                 <sdrNits>2.0</sdrNits>
