@@ -15,6 +15,7 @@
 #
 
 DEVICE_PATH := device/samsung/a52sxq
+PRODUCT_SIGNING_KEYS := vendor/lineage-priv/keys
 
 include device/samsung/sm7325-common/BoardConfigCommon.mk
 
