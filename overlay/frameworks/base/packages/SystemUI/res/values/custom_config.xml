@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2018-2022 The PixelOS Project
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,12 +12,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- HBM type of UDFPS overlay.
-            0 - GLOBAL HBM
-            1 - LOCAL HBM
-    -->
-    <integer name="config_udfpsHbmType">0</integer>
-
     <!-- Color of the UDFPS pressed view -->
     <color name="config_udfpsColor">#ffffff</color>
 </resources>
