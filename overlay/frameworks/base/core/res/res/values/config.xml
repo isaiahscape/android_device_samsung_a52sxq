@@ -50,4 +50,13 @@
     <!-- Default value for fp screen off unlock toggle, it only works for the devices that support
          fp screen off unlock-->
     <bool name="config_screen_off_udfps_default_on">false</bool>
+
+    <!-- Optional IpSec algorithms (kernel dependencies) to beverify supported on subset of
+         devices with Vendor API level < 31. -->
+    <string-array name="config_optionalIpSecAlgorithms" translatable="false">
+        <!-- IpSecAlgorithm.AUTH_AES_XCBC -->
+        <item>xcbc(aes)</item>
+        <!-- IpSecAlgorithm.CRYPT_AES_CTR -->
+        <item>rfc3686(ctr(aes))</item>
+    </string-array>
 </resources>
