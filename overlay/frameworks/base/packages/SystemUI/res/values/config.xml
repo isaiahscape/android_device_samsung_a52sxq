@@ -25,4 +25,16 @@
 
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">7dp</dimen>
+
+    <!-- Flag to turn on the rendering of display cutout protection path for the front camera -->
+    <bool name="config_enableDisplayCutoutProtection">true</bool>
+
+    <!-- ID for the camera that needs extra protection -->
+    <string name="config_protectedCameraId" translatable="false">1</string>
+
+    <!-- A path similar to frameworks/base/core/res/res/values/config.xml
+         config_mainBuiltInDisplayCutout that describes a path larger than the exact path of a display
+         cutout. SystemUI will draw this "protection path" when the front camera turns on to avoid
+         screen light reflections onto the lens. -->
+    <string name="config_frontBuiltInDisplayCutoutProtection" translatable="false">M 540,22 a 38,38 0 1,0 0,76 a 38,38 0 1,0 0,-76 Z</string>
 </resources>
