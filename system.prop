@@ -1,0 +1,4 @@
+# RIL
+# Seed the legacy radio HAL fallback used by the user-facing Vo5G switch.
+persist.radio.is_vonr_enabled_0=false
+persist.radio.is_vonr_enabled_1=false
